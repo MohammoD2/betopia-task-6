@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+pymongo[srv]    # MongoDB driver for Python with Atlas support
+dnspython          # Required for MongoDB SRV connections            # For OpenRouter API integration
+faiss-cpu    # For RAG / vector search
+python-dotenv    # Manage environment variables (API keys, Mongo URI)

@@ -47,12 +47,12 @@ st.write("Welcome! I’m your friendly AI SDR bot. Let's capture your lead infor
 # Collect user info
 # ---------------------------
 with st.form("lead_form"):
-    name = st.text_input("Full Name")
-    email = st.text_input("Email Address")
-    company = st.text_input("Company Name")
-    role = st.text_input("Role in Company")
-    pain_points = st.text_area("Challenges / Pain Points")
-    interested_product = st.text_input("Interested Product / Solution")
+    name = st.text_input("Full Name" ,value="Mohammod Ibrahim Hossain")
+    email = st.text_input("Email Address",value="mohammod.ibrahim.data@gmail.com")
+    company = st.text_input("Company Name",value="Betopia")
+    role = st.text_input("Role in Company",value="Ai Engineer")
+    pain_points = st.text_area("Challenges / Pain Points",value="difficulties in making the chatbot ")
+    interested_product = st.text_input("Interested Product / Solution",value="Chatbot")
     submitted = st.form_submit_button("Submit")
 
 if submitted:
